@@ -21,7 +21,7 @@ for i in range(0, times):
   if number_2 == 0 and operator == "/":
     print ("no se puedo dividr por 0")
   else:
-    result = int(input("resultado: "))
+    result = float(input("resultado: "))
     match (operator):
       case ("+"): 
         aux = number_1 + number_2
